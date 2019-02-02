@@ -11,6 +11,21 @@ ul, li{
     padding: 0;
     margin: 0;
 }
+.title{
+    padding-top: 100px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.title__main{
+    font-size: 32px;
+    margin: 0 auto;
+}
+.title__text{
+    font-size: 20px;
+    width: 780px;
+    margin: 0 auto;
+    
+}
 
 /*The first screen*/
 
@@ -75,3 +90,16 @@ h3{
     margin: 60px auto 0;
     
 }
+.feature{
+    display: flex;
+    margin-bottom: 65px;
+}
+.feature__icon{
+    font-size: 50px;
+    margin-right: 37px;
+    color: black;
+}
+.feature__text{
+    color: #898989;
+}
+/*The second screen*/
