@@ -28,19 +28,21 @@ h3{
 }
 .menu{
     display: flex;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 .menu__item{
-    margin: 0 57px;
+    margin: 0 50px;
 }
 .menu__item a{
     font-size: 22px;
     font-weight: 700;
     color: #000;
 }
+.offer{
+    margin-top: 117px;
+}
 .offer__title{
     font-size: 32px;
-    margin-top: 117px;
     margin-bottom: 15px;
 }
 .offer__intro{
@@ -70,6 +72,6 @@ h3{
 }
 .iPad{
     display: block;
-    margin: 60px auto 0; 
-    padding-left: 10px;
+    margin: 60px auto 0;
+    
 }
