@@ -1,3 +1,75 @@
+/*Specification*/
 body{
     font-family: 'PT Sans', sans-serif;
 } 
+h1,h2,h3,h4,h5{
+    font-weight: 700;
+    color: #000;
+}
+ul, li{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+/*The first screen*/
+
+h2{
+    text-align: center;
+}
+h3{
+    font-weight: 400;
+}
+.header{
+    background: #fcdb00;
+    color: #010101;
+    padding-top: 58px;
+    padding-bottom: 105px;
+}
+.menu{
+    display: flex;
+    margin-top: 10px;
+}
+.menu__item{
+    margin: 0 57px;
+}
+.menu__item a{
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+}
+.offer__title{
+    font-size: 32px;
+    margin-top: 117px;
+    margin-bottom: 15px;
+}
+.offer__intro{
+    font-size: 20px;
+    line-height: 1.3em;
+}
+.offer__text{
+    font-size: 16px;
+    margin-top: 15px;
+    color: #555555;
+    width: 400px;
+}
+.icons{
+    display: flex;
+}
+.icons__item{
+    margin-right: 30px;
+}
+.icons__item a{
+    color: #000;
+    font-size: 42px;
+    transition: all 0.3s ease;
+}
+.icons__item a:hover{
+    text-decoration: none;
+    color: white;
+}
+.iPad{
+    display: block;
+    margin: 60px auto 0; 
+    padding-left: 10px;
+}
